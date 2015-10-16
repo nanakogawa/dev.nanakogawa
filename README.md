@@ -1,2 +1,2 @@
 # nanakogawa.com
-A website for people who wants to learn about me.
+A website for people who want to learn about me.

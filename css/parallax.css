@@ -1,0 +1,17 @@
+.divider {
+    height:50px;
+}
+
+section {
+    height:500px;
+    padding-top:50px;
+    padding-bottom:50px;
+    overflow:auto;
+}
+
+section.discover-top {
+  background: url('../images/carousel-2.jpg') no-repeat center center fixed;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}

@@ -1,0 +1,66 @@
+/*-- scroll mouse --*/
+
+#mice {
+    margin: 0 auto;
+    padding-bottom: 8em;
+    padding-top: 15em;
+    text-align: center;
+    width: 20px;
+    height: 9px;
+}
+
+#mice span {
+    display: block;
+    width: 9px;
+    height: 9px;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    border-right: 2px solid #ff00a7;
+    border-bottom: 2px solid #ff00a7;
+}
+
+.unu {
+    -webkit-animation-delay: .1s;
+    -moz-animation-delay: .1s;
+    -webkit-animation-direction: alternate;
+}
+
+.doi {
+    -webkit-animation-delay: .2s;
+    -moz-animation-delay: .2s;
+    -webkit-animation-direction: alternate;
+}
+
+.unu {
+    -webkit-animation: mouse-scroll 1s infinite;
+}
+
+.doi {
+  -webkit-animation: mouse-scroll 1.5s infinite;
+}
+
+@-webkit-keyframes mouse-scroll {
+
+  0%   { opacity: 0;}
+  50%  { opacity: .5;}
+  100% { opacity: 1;}
+}
+@-moz-keyframes mouse-scroll {
+
+  0%   { opacity: 0; }
+  50%  { opacity: .5; }
+  100% { opacity: 1; }
+}
+@-o-keyframes mouse-scroll {
+
+  0%   { opacity: 0; }
+  50%  { opacity: .5; }
+  100% { opacity: 1; }
+}
+@keyframes mouse-scroll {
+
+  0%   { opacity: 0; }
+  50%  { opacity: .5; }
+  100% { opacity: 1; }
+}

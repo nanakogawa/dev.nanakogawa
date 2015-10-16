@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'helvetica-neue-thin';
+  src: url('../fonts/helvetica-neue-thin.otf');
+}
+
+@font-face {
+  font-family: 'helvetica-neue-ultra-thin';
+  src: url('../fonts/helvetica-neue-ultra-thin.otf');
+}
+
+body {
+  font-family: helvetica-neue-ultra-thin, sans-serif;
+  font-size: 20px;
+}
+
+.first h1 {
+  font-family: helvetica-neue-ultra-thin, sans-serif;
+}
+
+.triangles {
+  margin: 150px 0 0 0;
+  float: left;
+  text-align: left;
+}
+
+.intro {
+  height: 1000px;
+  width: 100%;
+}
+
+.contact {
+  height: 980px;
+  width: 100%;
+  background-color: #202020;
+  color: #fff;
+}
+
+.contact-header {
+  padding: 50px;
+  font-size: 50px;
+  font-family: helvetica-neue-thin, sans-serif;
+}

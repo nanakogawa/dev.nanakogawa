@@ -40,7 +40,7 @@ h1.cover-header {
 .down-arrow {
   color: #ff00a7;
   font-size: 30px;
-  margin: 32vh 0 0;
+  margin: 33vh 0 0;
 }
 
 .coming-soon {
@@ -57,7 +57,7 @@ h1.cover-header {
   h1.cover-header {
     line-height: 110px;
   }
-  .fullstack-dev {
+  .front-end-dev {
     margin-top: 5px;
   }
 }
@@ -67,7 +67,7 @@ h1.cover-header {
     font-size: 6em;
     line-height: 95px;
   }
-  .fullstack-dev {
+  .front-end-dev {
     font-size: 20px;
   }
 }
@@ -78,7 +78,7 @@ h1.cover-header {
     font-size: 5em;
     line-height: 80px;
   }
-  .fullstack-dev {
+  .front-end-dev {
     font-size: 18px;
   }
 }
@@ -88,7 +88,7 @@ h1.cover-header {
     font-size: 4em;
     line-height: 70px;
   }
-  .fullstack-dev {
+  .front-end-dev {
     font-size: 16px;
   }
 }

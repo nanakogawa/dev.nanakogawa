@@ -17,10 +17,10 @@ strong {
   display: inline-block;
 }
 
-.fullstack-dev {
+.front-end-dev {
   color: #bababa;
-  font-size: 22px;
-  letter-spacing: 0.4em;
+  font-size: 25px;
+  letter-spacing: 0.35em;
   margin: -20px 0 0 0 ;
   animation-name: separator_expand;
   animation-duration: 3s;

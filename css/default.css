@@ -18,9 +18,10 @@ body {
   font-size: 20px;
 }
 
+
 .cover-wrapper {
   width: 100%;
-  height: 1000px;
+  height: 100vh;
   text-align: center;
 }
 
@@ -43,14 +44,74 @@ h1.cover-header {
   margin: 33vh 0 0;
 }
 
-.coming-soon {
+.about-wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+.about-header-div {
+  background: #ff0091;
+  height: 100vh;
+}
+
+.about-content {
+  background-color: #fff;
+  height: 100vh;
+}
+
+.projects-wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+.projects-header-div {
+  background-color: #fff;
+  height: 100vh;
+}
+
+.projects-content {
+  background: #ff4e14;
+  height: 100vh;
+}
+
+.contact-wrapper {
   font-size: 5em;
   color: #fff;
   width: 100%;
-  height: 1000px;
+  height: 100%;
   text-align: center;
+}
+
+.contact {
   background-color: #2b2b2b;
-  padding-top: 425px;
+  height: 100vh;
+  padding-top: 20vh;
+}
+
+.social-media {
+  height: 100%;
+}
+
+.facebook {
+  background-color: #313131;
+  height: 50vh;
+}
+
+.instagram {
+  background-color: #3f3f3f;
+  height: 50vh;
+}
+
+.linkedin {
+  background-color: #4f4f4f;
+  height: 50vh;
+}
+
+.github {
+  background-color: #565656;
+  height: 50vh;
 }
 
 @media (max-width: 986px) {

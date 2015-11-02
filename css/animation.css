@@ -1,66 +1,100 @@
-/*-- scroll mouse --*/
-
-#mice {
-    margin: 0 auto;
-    padding-bottom: 8em;
-    padding-top: 15em;
-    text-align: center;
-    width: 20px;
-    height: 9px;
+.nana {
+  color: #FF00A7;
+  letter-spacing: 0.002em;
+  animation-name: textfade;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  display: inline-block;
 }
 
-#mice span {
-    display: block;
-    width: 9px;
-    height: 9px;
-    -ms-transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
-    border-right: 2px solid #ff00a7;
-    border-bottom: 2px solid #ff00a7;
+strong {
+  color: #FF00A7;
+  font-family: helvetica-neue-thin, sans-serif;
+  letter-spacing: 0.006em;
+  animation-name: textslide;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
+  display: inline-block;
 }
 
-.unu {
-    -webkit-animation-delay: .1s;
-    -moz-animation-delay: .1s;
-    -webkit-animation-direction: alternate;
+.fullstack-dev {
+  color: #bababa;
+  font-size: 22px;
+  letter-spacing: 0.4em;
+  margin: -20px 0 0 0 ;
+  animation-name: separator_expand;
+  animation-duration: 3s;
 }
 
-.doi {
-    -webkit-animation-delay: .2s;
-    -moz-animation-delay: .2s;
-    -webkit-animation-direction: alternate;
+@keyframes textslide {
+  0% {
+    color: rgba(255, 0, 191, 0);
+    text-shadow: 0 0 32px #FF00A7;
+    transform: matrix(1,0,-0.1,1,-50,0);
+  }
+  67% {
+    color: rgba(255, 255, 255, 0);
+    text-shadow: 0 0 0 #FF00A7;
+  }
+  100% {
+    color: rgb(255, 0, 167);
+    transform: matrix(1,0,0,1,0,0);
+  }
 }
 
-.unu {
-    -webkit-animation: mouse-scroll 1s infinite;
+@keyframes textfade {
+  0% {
+    color: rgba(255, 255, 255, 0);
+    text-shadow: 0 0 8px rgba(255,255,255,.25);
+    transform: matrix(1,0,0.1,1,50,0);
+  }
+  55% {
+    color: rgba(255, 255, 255, 0);
+    text-shadow: 0 0 2px rgb(255, 0, 167);
+  }
+  100% {
+    color: rgb(255, 0, 167);
+    text-shadow: 0 0 0 rgb(255, 0, 167);
+    transform: matrix(1,0,0,1,0,0);
+  }
 }
 
-.doi {
-  -webkit-animation: mouse-scroll 1.5s infinite;
+@keyframes separator_expand {
+  0% {
+    transform: matrix(0.01,0,0,1,0,0);
+  }
+
+  100% {
+    transform: matrix(1,0,0,1,0,0);
+  }
 }
 
-@-webkit-keyframes mouse-scroll {
-
-  0%   { opacity: 0;}
-  50%  { opacity: .5;}
-  100% { opacity: 1;}
+.bounce {
+ animation: bounce 2s infinite;
+ -webkit-animation: bounce 2s infinite;
+ -moz-animation: bounce 2s infinite;
+ -o-animation: bounce 2s infinite;
 }
-@-moz-keyframes mouse-scroll {
 
-  0%   { opacity: 0; }
-  50%  { opacity: .5; }
-  100% { opacity: 1; }
+@-webkit-keyframes bounce {
+ 0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}
+ 40% {-webkit-transform: translateY(-30px);}
+ 60% {-webkit-transform: translateY(-15px);}
 }
-@-o-keyframes mouse-scroll {
 
-  0%   { opacity: 0; }
-  50%  { opacity: .5; }
-  100% { opacity: 1; }
+@-moz-keyframes bounce {
+ 0%, 20%, 50%, 80%, 100% {-moz-transform: translateY(0);}
+ 40% {-moz-transform: translateY(-30px);}
+ 60% {-moz-transform: translateY(-15px);}
 }
-@keyframes mouse-scroll {
 
-  0%   { opacity: 0; }
-  50%  { opacity: .5; }
-  100% { opacity: 1; }
+@-o-keyframes bounce {
+ 0%, 20%, 50%, 80%, 100% {-o-transform: translateY(0);}
+ 40% {-o-transform: translateY(-30px);}
+ 60% {-o-transform: translateY(-15px);}
+}
+@keyframes bounce {
+ 0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+ 40% {transform: translateY(-30px);}
+ 60% {transform: translateY(-15px);}
 }

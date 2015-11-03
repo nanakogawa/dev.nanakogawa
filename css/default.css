@@ -18,7 +18,6 @@ body {
   font-size: 20px;
 }
 
-
 .cover-wrapper {
   width: 100%;
   height: 100vh;
@@ -53,6 +52,24 @@ h1.cover-header {
 .about-header-div {
   background: #ff0091;
   height: 100vh;
+  text-align: center;
+}
+
+.about-header {
+  color: #fff;
+  font-size: 4em;
+  font-family: helvetica-neue-thin, sans-serif;
+  padding-top: 30vh;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+}
+
+.nav {
+  color: #fff;
+}
+
+a.navtab {
+  color: #fff;
 }
 
 .about-content {

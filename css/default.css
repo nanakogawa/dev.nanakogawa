@@ -16,7 +16,7 @@
 body {
   font-family: helvetica-neue-ultra-thin, sans-serif;
   font-size: 18px;
-    letter-spacing: 0.02em;
+  letter-spacing: 0.02em;
 }
 
 .cover-wrapper {
@@ -127,7 +127,7 @@ a.navtab-black:hover {
 .projects-content {
   height: 100vh;
   padding: 0;
-  overflow-y: auto;
+  overflow-x: scroll;
 }
 
 .project-one,
@@ -138,15 +138,22 @@ a.navtab-black:hover {
 }
 
 .project-one {
-  background: #ff4e14;
+  /*background: #ff4e14;*/
+}
+
+.coffeeme-mac {
+  width: 77%;
+  position: relative;
+  margin-top: 15vh;
+  z-index: 0;
 }
 
 .project-two {
-  background-color: #2dedff;
+  /*background-color: #2dedff;*/
 }
 
 .project-three {
-  background: #8f20ff;
+  /*background: #8f20ff;*/
 }
 
 .contact-wrapper {

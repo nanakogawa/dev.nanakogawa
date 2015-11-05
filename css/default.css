@@ -137,7 +137,7 @@ a.navtab-black:hover {
 .projects-content {
   height: 100vh;
   padding: 0;
-  overflow-x: scroll;
+  overflow-y: scroll;
 }
 
 .project-one,

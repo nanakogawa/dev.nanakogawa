@@ -1,2 +1,2 @@
 # nanakogawa.com
-My personal website.
+My personal website, still in idea mode.

@@ -1,91 +1,255 @@
 <!DOCTYPE html>
-<html lang="en">
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Nana Kogawa</title>
-    <link rel="icon" type="image/png" href="images/favicon-bold.png">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
-    <link rel="stylesheet" href="css/animation.css">
-    <link rel="stylesheet" href="css/default.css">
-  </head>
-  <body>
-    <div class="cover-wrapper">
-      <h1 class="cover-header">
-        <span class="nana">NANA</span>
-        <strong>KOGAWA</strong>
-      </h1>
-      <div class="front-end-dev">Front End Developer</div>
-	    <a href="#about">
-        <div class="glyphicon glyphicon-menu-down down-arrow bounce"></div>
-      </a>
-	  </div>
-	  <div class="about-wrapper" id="about">
-	    <div class="col-md-6 about-header-div">
-        <h1 class="about-header headers">ABOUT</h1>
-        <div class="nav nav-white">
-          <a href="#about" class="navtab-white">ABOUT</a> /
-          <a href="#projects" class="navtab-white">PROJECTS</a> /
-          <a href="#contact" class="navtab-white">CONTACT</a>
-        </div>
-	    </div>
-	    <div class="col-md-6 about-content">
-	      <div class="about-intro">
-        <div class="col-md-4">
-          <img src="images/nana-kogawa.jpg" class="nana-icon">
-        </div>
-        <div class="col-md-8">
+<!--[if IE 8 ]><html class="ie" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
 
-        </div>
-	    </div>
-	    </div>
-	  </div>
-	  <div class="projects-wrapper">
-	    <div class="col-md-4 projects-header-div" id="projects">
-        <h1 class="projects-header headers">PROJECTS</h1>
-        <div class="nav nav-black">
-          <a href="#about" class="navtab-black">ABOUT</a> /
-          <a href="#projects" class="navtab-black">PROJECTS</a> /
-          <a href="#contact" class="navtab-black">CONTACT</a>
-        </div>
-	    </div>
-	    <div class="col-md-8 projects-content">
-        <div class="project-one">
-          <img src="images/imac-coffeeme.png" class="coffeeme-mac">
-        </div>
-        <div class="project-two">
-          <img src="images/imac-aircraftlite.png" class="coffeeme-mac">
-        </div>
-        <div class="project-three">
-          <img src="images/imac-maestro.png" class="coffeeme-mac">
-        </div>
-      </div>
-	  </div>
-    <div class="contact-wrapper" >
-      <div class="col-md-6 col-sm-6 contact" id="contact">
-        <h1 class="contact-header headers">CONTACT</h1>
-      </div>
-      <div class="col-md-6 col-sm-6 social-media">
-        <div class="row">
-          <div class="col-xs-6 facebook">
-          </div>
-          <div class="col-xs-6 instagram">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xs-6 linkedin">
-          </div>
-          <div class="col-xs-6 github">
-          </div>
-        </div>
-      </div>
-	  </div>
-    <!--<a href="mailto:contact@nanakogawa.com" class="mail">contact@nanakogawa.com</a>-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script src="js/animation.js"></script>
-    <script src="js/parallax.js"></script>
-  </body>
+	<title>NANA KOGAWA | Software Developer</title>
+
+	<!-- Behavioral Meta Data -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<!-- Core Meta Data -->
+	<meta name="author" content="Nana Kogawa">
+	<meta name="description" content="Nana Kogawa | Software Developer based in Orange County, CA.">
+	<meta name="keywords" content="software developer, developer, web, javascript, html, css, portfolio">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" href="images/logo_pink.png" type="image/png">
+
+	<!-- Apple Touch Icons -->
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/apple/logo_144.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/apple/logo_114.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/apple/logo_72.png">
+	<link rel="apple-touch-icon-precomposed" sizes="57x57" href="images/apple/logo_57.png">
+
+	<!-- Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lekton' rel='stylesheet' type='text/css'>
+	<script src="https://use.fontawesome.com/d6e690e7d9.js"></script>
+
+	<!-- Styles -->
+	<link rel="stylesheet" type="text/css" href="css/framework.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<link rel="stylesheet" type="text/css" href="css/pink.css" media="screen">
+
+	<!-- Javascript -->
+	<script src="js/modernizr.js"></script>
+	<script src="js/jquery.js"></script>
+</head>
+<body>
+	<!-- Begin Pageloader -->
+	<div id="pageloader">
+		<div class="pageloader-content"></div>
+	</div><!-- END Pageloader -->
+
+	<!-- Sticky Nav -->
+	<header>
+		<!-- Container -->
+		<div class="container">
+			<div class="row header-inner">
+				<!-- Logo -->
+				<div class="col-xs-6 col-lg-2">
+					<img class="logo has-retina" src="images/logo_white.png" alt="Nana">
+				</div>
+			</div>
+		</div><!-- END Container -->
+	</header><!-- END Sticky Nav -->
+
+	<!-- Begin Hero -->
+	<section class="hero">
+		<div class="container">
+			<!-- Hero Content -->
+			<div class="row hero-content" data-0="opacity: 1; transform: translate3d(0px, 0px, 0px);" data-top-bottom="opacity: 0; transform: translate3d(0px, 300%, 0px);">
+				<!-- Logo -->
+				<div class="col-xs-12 col-lg-2">
+					<img class="logo has-retina" src="images/logo_white.png" alt="Nana">
+				</div>
+
+				<!-- Intro -->
+				<div class="col-xs-12 col-sm-10 col-lg-10">
+					<h2>Introduction</h2>
+					<h1>Hi! I'm <span class="highlight">Nana</span>.<br>Software Developer.<br>Based in Orange County, CA.</h1>
+					<!--<a href="#section1" class="scroll-to"></a>-->
+				</div>
+			</div><!-- END Hero Content -->
+		</div><!-- END Container -->
+	</section><!-- END Hero -->
+	
+
+	<div class="container">
+		<!-- About -->
+		<section id="section1" class="padded-top">
+
+			<!-- Content -->
+			<div class="row">
+				<div class="col-xs-12 col-lg-8 col-lg-offset-2">
+					<h2>about</h2>
+					<p>Born &amp; raised in America, I'm genuinely inspired by industrial minimalism and different cultures.
+						Over six years in business, I have had a chance to work on a variety of projects, with agencies,
+						companies or even individuals. Custom work is my territory, branding, web design, UI/UX design, print
+						design &amp; any offline design.
+					</p>
+					<p>You can find my design work on <a href="#">Dribbble</a> and <a href="#">Behance</a>, random
+						thoughts on <a href="#">Twitter</a> and <a href="#">Medium</a>, beautiful pics on 
+						<a href="#">Instagram</a> and almost a full resume on <a href="#">Linkedin</a>. For work inquires
+						please send me an <a href="mailto:contact@nanakogawa.com">email</a>.
+					</p>
+				</div>
+			</div>
+
+		</section><!-- END About -->
+
+		<!-- Experience -->
+		<section id="section3">
+			<!-- Title -->
+			<div class="row padded-top skills">
+				<div class="col-xs-12 col-lg-8 col-lg-offset-2">
+					<h2>skills</h2>
+					<p>HTML5, CSS3, Sass, Bootstrap, JavaScript, jQuery, Ionic, AngularJS<br>
+					NodeJS, Restful API, Neo4j, MySQL, npm, Git, WebStorm<br>
+					Wordpress, Visual Composer, Photoshop, Lightroom</p>
+				</div>
+			</div>
+
+			<div class="row padded-top">
+				<div class="col-xs-12 col-lg-8 col-lg-offset-2">
+					<h2>experience</h2>
+				</div>
+			</div>
+
+			<!-- Timeline -->
+			<div class="row">
+				<div class="timeline col-xs-12 col-lg-8 col-lg-offset-2">
+					<div class="entry">
+						<div class="time on">Nov 2015 - Present</div>
+						<div class="content"><span class="strong">OC Web Kings</span><br>Web Developer</div>
+						<div class="desc">
+							<ul>
+								<li>Implement mock up design from PSD to responsive web page with HTML & CSS, Sass and Bootstrap/Ionic</li>
+								<li>Build front end functionality using AngularJS and Ionic</li>
+								<li>Optimize web page for tablet/mobile and work with cross-browser compatibility issues</li>
+								<li>Work closely with designers to ensure UI quality control and acquire assets</li>
+								<li>Manage and lead multiple projects by organizing task boards and attending meetings with teammates and clients</li>
+								<li>Maintain clear communication with clients to obtain work progress satisfaction and receive request/feedback</li>
+								<li>Set up domain and hosting, install WordPress, implement design with Visual Composer and maintain Wordpress websites</li>
+								<li>Run through web pages with MozBar for on-page SEO, check Moz Pro to monitor ranking and performance and use Google
+									Analytics for analytics</li>
+								<li>Write rewrite rules for 301 redirects to prevent 404 errors and crawl errors</li>
+								<li>Work with databases such as Neo4j and MySQL</li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="row padded-top-sm margin-bottom-xs">
+				<div class="col-xs-12 col-lg-8 col-lg-offset-2">
+					<a class="button" href="pdf/nana-kogawa-resume.pdf" target="_blank">Download Resume</a>
+				</div>
+			</div>
+		</section><!-- END Experience -->
+
+		<!-- Clients -->
+		<section id="section4">
+
+			<!-- Title -->
+			<div class="row padded-top">
+				<div class="col-xs-12 col-lg-8 col-lg-offset-2">
+					<h2>recent projects</h2>
+				</div>
+			</div>
+
+			<!-- Large Text -->
+			<div class="row">
+				<!--<div class="col-xs-12 col-lg-8 col-lg-offset-2">-->
+					<!--<h1 class="rec">"Nana is exceptionally detail oriented, with a rare mix of pragmatism that allows her to ship-->
+					<!--high quality software quickly. She adapts to new technology requirements and learns the latest-->
+					<!--techniques, while keeping on schedule and delivering. I highly recommend her to any team looking for-->
+					<!--a strong contributor."</h1>-->
+				<!--</div>-->
+			</div>
+
+		</section><!-- END Clients -->
+
+		<!-- Contact -->
+		<section id="section5">
+
+			<!-- Title -->
+			<div class="row padded-top">
+				<div class="col-xs-12 col-lg-8 col-lg-offset-2">
+					<h2>contact</h2>
+				</div>
+			</div>
+
+			<!-- Form -->
+			<div class="row padded-bottom">
+				<div class="col-xs-12 col-lg-8 col-lg-offset-2">
+					<h1><a href="mailto:contact@nanakogawa.com">contact@nanakogawa.com</a></h1>
+					<p>Or fill out this form below:</p>
+
+					<form id="contact" name="contact" method="post" novalidate="novalidate">
+						<fieldset>
+							<label for="name">Name</label>
+							<input type="text" name="name" id="name" />
+							<label for="email">Email</label>
+					        <input type="email" name="email" id="email" />
+					        <label for="message">Message</label>
+					        <textarea name="message" id="message"></textarea>
+					        <input id="submit" type="submit" name="submit" value="Send Email">
+						</fieldset>
+					</form>
+
+					<div id="success">
+						<p>Your message was sent successfully! I will be in touch as soon as I can.</p>
+					</div>
+
+					<div id="error">
+						<p>Something went wrong, try refreshing and submitting the form again.</p>
+					</div>
+				</div>
+			</div>
+
+		</section><!-- END Contact -->
+	</div><!-- END Container -->
+
+	<!-- Footer -->
+	<footer class="padded">
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Social List -->
+			<div class="row">
+				<div class="social-list col-xs-12 col-lg-8 col-lg-offset-2">
+					<a href="https://www.linkedin.com/in/nanakogawa/" target="_blank"><i class="social-icon-linkedin"></i></a>
+					<a href="https://github.com/nanakogawa" target="_blank"><i class="social-icon-github"></i></a>
+					<a href="https://www.instagram.com/nanakogawa_/" target="_blank"><i class="social-icon-instagram"></i></a>
+					<a href="https://www.instagram.com/nanakogawa_/" target="_blank"><i class="fa fa-camera" aria-hidden="true"></i></a>
+				</div>
+			</div><!-- END Social List -->
+
+			<!-- Copyright -->
+			<div class="row">
+				<div class="social-list col-xs-12 col-lg-8 col-lg-offset-2">
+					<p class="copyright">© 2017 Nana Kogawa. All rights reserved.</p>
+				</div>
+			</div><!-- END Copyright -->
+		</div><!-- END Container -->
+	</footer><!-- END Footer -->
+
+	<!-- Javascript -->
+	<script type="text/javascript">
+	function resizeNow() {
+        var browserwidth = $(window).width();
+        var browserheight = $(window).height();
+        $('.pageloader-content').css('right', ((browserwidth - $(".pageloader-content").width()) / 2)).css('top', ((browserheight - $(".pageloader-content").height()) / 2));
+    }
+
+    resizeNow();
+    $(window).resize(resizeNow);
+	</script>
+	<script src="js/plugins.js"></script>
+	<script src="js/main.js"></script>
+</body>
 </html>

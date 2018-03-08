@@ -957,7 +957,9 @@ header .container {
 
 h1.rec {
 	font-size: 30px;
-	line-height: 38px;
+  line-height: 50px;
+  display: inline;
+  margin-right: 20px;
 }
 
 p.rec {
